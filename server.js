@@ -16,6 +16,19 @@ const port = 3000;
 dotenv.config();
 process.env.JWT_TOKEN;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
